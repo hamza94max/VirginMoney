@@ -5,7 +5,7 @@ Task for a client using retrofit, Navigation component and viewPager
 # Screen Shots 
 
 
-+3<div>
+<div>
 
 <img src = "https://user-images.githubusercontent.com/54688005/162640452-8f540fd1-5837-4877-9df3-170dd14e9678.png" width = 35%>
   <img width ="5%"/> 
