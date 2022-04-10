@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="7dp"
+    android:layout_marginTop="7dp"
+    app:cardCornerRadius="14dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/roomID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="roomid"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:padding="7dp"/>
+
+        <TextView
+            android:id="@+id/maxOccupancy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roomID"
+            android:text="maxOccupancy : "
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+        <TextView
+            android:id="@+id/isOccupied"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/maxOccupancy"
+            android:text="isOccupied : "
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+        <TextView
+            android:id="@+id/createdAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isOccupied"
+            android:text="createdAt : "
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
